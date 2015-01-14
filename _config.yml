@@ -1,0 +1,5 @@
+name: "Freidae"
+description: "Freidae_ios_apps"
+baseurl: "/freidae"
+markdown: rdiscount
+permalink: pretty

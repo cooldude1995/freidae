@@ -1,0 +1,21 @@
+body{
+    background: url(/freidae/antarctic.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+     background-size: 100% 100%;
+    background-origin: content-box;
+}
+.navbar {
+    background-color: rgba(211,211,211,0.55);
+    border: 0px;
+}
+.navbar li {
+    color: black; 
+    padding-left: 4%;
+    padding-right: 4%;
+} 
+.navbar ul{
+    width: 80%;
+    padding-left: 14%;
+    padding-right: 10%;
+}
