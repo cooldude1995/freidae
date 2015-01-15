@@ -14,8 +14,33 @@ body{
     padding-left: 4%;
     padding-right: 4%;
 } 
-.navbar ul{
+#top_nav_ul{
     width: 80%;
     padding-left: 14%;
     padding-right: 10%;
+}
+#base_nav_div{
+    margin-left: 0%;
+}
+#base_nav_ul{
+    padding-left: 0%;
+    width: 70%;
+}
+.form-group{
+    margin-bottom: 5px;
+    min-width: 304px;
+    width: 36%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inputEmail,#inputSubject,#content,#sel1{
+    text-align: center;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+#inputEmail,#inputSubject{
+    height: 56px;
+}
+option{
+    text-indent: 5px; 
 }
