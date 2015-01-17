@@ -1,5 +1,5 @@
 body{
-    background: url(/freidae/antarctic.jpg);
+    background: url(/freidae/data/backgrounds/antarctic1.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
      background-size: 100% 100%;
@@ -25,6 +25,9 @@ body{
 #base_nav_ul{
     padding-left: 0%;
     width: 70%;
+}
+#form_reach_us{
+    margin-top: 4%;
 }
 .form-group{
     margin-bottom: 5px;

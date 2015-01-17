@@ -2,7 +2,7 @@
 layout: default_home
 title: Freidae Home Page
 ---
-<form role="form" method="POST" action="http://formspree.io/udbhav1995@gmail.com">
+<form role="form" method="POST" action="http://formspree.io/udbhav1995@gmail.com" id="form_reach_us">
     <div class="form-group">
         <label for="inputEmail" style="text-align: center;padding-left: 17%;padding-right: 17%;">Got question or just drop a line and say hi!!</label>
         <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email">
