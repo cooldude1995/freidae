@@ -20,6 +20,7 @@ title: Freidae Home Page
     <div class="form-group">
         <textarea class="form-control" rows="5" id="content" placeholder="Content" name="content"></textarea>
     </div>
+    <div class="form-group g-recaptcha" data-sitekey="6LeZnAATAAAAAOJ3yKx36w7PVQ324vz6T1BL8l9z"></div>
     <div class="form-group" style="width: 71px;min-width: 71px;">
         <button type="submit" class="btn btn-primary"><p style="text-align: center;">Submit</p></button>
     </div>
