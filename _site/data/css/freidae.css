@@ -53,6 +53,17 @@ body{
     padding-left: 0%;
     width: 97%;
 }
+#home_iphone{
+    margin-top: -20%;
+    height: 614px;
+    width: 87%;
+    min-width: 303px;
+}
+#home_iphone_logo{
+    position: absolute;
+    left: 6%;
+    top: 12%;
+}
 #form_reach_us{
     margin-top: 4%;
 }
