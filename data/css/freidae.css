@@ -31,6 +31,18 @@ body{
     padding-right: 2%;
     height: 60px;
 } 
+.navbar-inverse .navbar-nav>li>a{
+    color: #000000;
+}
+.navbar-inverse .navbar-nav>li>a:active{
+    color: #660000;
+}
+.navbar-inverse .navbar-nav>li>a:target{
+    color: #660000;
+}
+.navbar-inverse .navbar-nav>li>a:hover{
+    color: #ffffff;
+}
 #top_nav_ul{
     margin-left: 3%;
     margin-right: 2%;
@@ -54,15 +66,11 @@ body{
     width: 97%;
 }
 #home_iphone{
-    margin-top: -20%;
+    margin-top: -14%;
     height: 614px;
-    width: 87%;
+    width: 77%;
+    max-width: 337px;
     min-width: 303px;
-}
-#home_iphone_logo{
-    position: absolute;
-    left: 6%;
-    top: 12%;
 }
 #form_reach_us{
     margin-top: 4%;
@@ -84,4 +92,38 @@ body{
 }
 option{
     text-indent: 5px; 
+}
+#home_form{
+    margin-top: 20%;
+    font-size: 18px;
+}
+#home_form .form-group{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#inputEmail1_h{
+    background: rgba(255, 255, 255, 0.7);
+    width: 70%;
+    height: 42px;
+    border-radius: 13px;
+    text-align: center;
+    font-size: 18px;
+}
+#sinup_h{
+    background:  rgba(102, 204, 255, 0.7);
+    border-radius: 13px;
+    height: 39px;
+    margin-left: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 20%;
+    font-size: 18px;
+}
+#fbsinin{
+    margin-left: 12%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+#gmsinin{
+    margin-left: 11.6%;
 }
