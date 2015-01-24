@@ -1,0 +1,10 @@
+Pricing Page:
+
+BG color: #99cc99
+Main page heading:
+Aller, 18pt
+Interested? We have just the right plan for you
+
+Amount for each category in dollars: Font: Aller, size: 24pt
+Text in each category: Aller light, 12 pt
+

@@ -22,6 +22,7 @@ title: Freidae Home Page
     </div>
     <div class="form-group g-recaptcha" data-sitekey="6LeZnAATAAAAAOJ3yKx36w7PVQ324vz6T1BL8l9z"></div>
     <div class="form-group" style="width: 71px;min-width: 71px;">
+    <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
         <button type="submit" class="btn btn-primary"><p style="text-align: center;">Submit</p></button>
     </div>
 </form>
