@@ -11,13 +11,13 @@
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <script type="text/javascript" src="/freidae/data/js/background.js"></script>
     </head>
 <body>
-    <script type="text/javascript"> 
-        changebg();
-    </script>
- 
+ <style>
+    body{
+    background: #ff6666;
+    }
+</style>
 <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container" style="margin-left: 0%;margin-right: 0%;width: 100%;">
         <div class="navbar-header pull-left">
@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_appstr" src="/freidae/data/img/App_store_badge.png" alt="App store"></a>
+            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_appstr" src="/freidae/data/img/Sign%20In%20button.png" alt="sign in/up"></a>
         </div>
         <div class="navbar-header pull-right">
             <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_logo" src="/freidae/data/img/Logo+font.png" alt="Freidae"></a>
@@ -44,7 +44,7 @@
 <div class="container-fluid" >
     <p><form role="form" method="POST" action="http://formspree.io/udbhav1995@gmail.com" id="form_reach_us" data-success="Message successfully sent!">
     <div class="form-group">
-        <label for="inputEmail" style="text-align: center;padding-left: 17%;padding-right: 17%;">Got question or just drop a line and say hi!!</label>
+        <label for="inputEmail" id="label_reachus">Got question or just drop a line and say hi!!</label>
         <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email" required autofocus>
     </div>
     <div class="form-group">
@@ -63,7 +63,7 @@
     <div class="form-group g-recaptcha" data-sitekey="6LeZnAATAAAAAOJ3yKx36w7PVQ324vz6T1BL8l9z"></div>
     <div class="form-group" style="width: 71px;min-width: 71px;">
     <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
-        <button type="submit" class="btn btn-primary"><p style="text-align: center;">Submit</p></button>
+        <button id="btn-submit" type="submit" class="btn"><p style="text-align: center;">Submit</p></button>
     </div>
 </form></p>
 

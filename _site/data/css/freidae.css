@@ -33,6 +33,7 @@ body{
 } 
 .navbar-inverse .navbar-nav>li>a{
     color: #000000;
+    font-size: 14px;
 }
 .navbar-inverse .navbar-nav>li>a:active{
     color: #660000;
@@ -42,6 +43,9 @@ body{
 }
 .navbar-inverse .navbar-nav>li>a:hover{
     color: #ffffff;
+}
+#myNavbar{
+    min-width: 76px;
 }
 #top_nav_ul{
     margin-left: 3%;
@@ -89,6 +93,20 @@ body{
 }
 #inputEmail,#inputSubject{
     height: 56px;
+}
+#label_reachus{
+    text-align: center;
+    padding-left: 13.5%;
+    padding-right: 13.5%;
+    font-size: 18px;
+}
+#btn-submit{
+    background: #9ABCBC;
+    width: 196%;
+    height: 34px;
+    border-radius: 14px;
+    margin-left: -42%;
+    margin-right: auto;
 }
 option{
     text-indent: 5px; 
