@@ -21,6 +21,10 @@ body{
     background-origin: border-box;
     background-position: center center;
 }
+h1,h3{
+    text-align: center;
+    margin-bottom: 3%;
+}
 .navbar {
     background-color: rgba(255, 255, 255, 0.45);
     border: 0px;
@@ -157,4 +161,14 @@ option{
     padding: 10px 15px;
     color: #a94442;
     margin-top: 15px;
+}
+#i-pro-crd-mgr,#i-dilr{
+    width: 70%;
+    margin-left: 14%;
+    margin-right: 14%;
+    margin-bottom: 10%;
+    min-height: 70px;
+}
+#i-dilr{
+    width: 79%;
 }
