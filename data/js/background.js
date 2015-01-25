@@ -1,4 +1,4 @@
-var bgcount = 2;
+var bgcount = 57;
 function changebg() {
     var num =  Math.ceil( Math.random() * bgcount );
     document.body.style.background = 'url(/freidae/data/backgrounds/BackgroundImage'+num+'.jpg)';
