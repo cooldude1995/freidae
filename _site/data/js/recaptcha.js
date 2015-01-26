@@ -1,5 +1,5 @@
 function setupRecaptcha() {
-  var contactFormHost = 'reachus-freidae.heroku.com',
+  var contactFormHost = 'https://reachus-freidae.herokuapp.com',
       form = $('#form_reach_us'),
       notice = form.find('#notice');
 
@@ -34,4 +34,5 @@ function setupRecaptcha() {
       });
     });
   }
+    return false;
 }
