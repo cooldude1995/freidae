@@ -11,13 +11,13 @@
         <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        <script type="text/javascript" src="/freidae/data/js/background.js"></script>
     </head>
 <body>
- <style>
-    body{
-    background: #ff6666;
-    }
-</style>
+    <script type="text/javascript"> 
+        changebg();
+    </script>
+
 <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container" style="margin-left: 0%;margin-right: 0%;width: 100%;">
         <div class="navbar-header pull-left">
@@ -42,7 +42,13 @@
     </div>
 </nav>
 <div class="container-fluid" >
-    <p><form role="form" method="POST" action="http://formspree.io/udbhav1995@gmail.com" id="form_reach_us" data-success="Message successfully sent!">
+    <script>document.getElementById("label_reachus").innerHTML = window.location.href;</script>
+
+
+<div id="notice1"></div>
+
+
+<p><form role="form" method="POST" action="http://formspree.io/udbhav1995@gmail.com" id="form_reach_us" data-success="Message successfully sent!">
     <div class="form-group">
         <label for="inputEmail" id="label_reachus">Got question or just drop a line and say hi!!</label>
         <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email" required autofocus>

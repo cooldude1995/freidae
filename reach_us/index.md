@@ -2,6 +2,8 @@
 layout: default_others
 title: Freidae Home Page
 ---
+<script>document.getElementById("label_reachus").innerHTML = window.location.href;</script>
+<div id="notice1"></div>
 <form role="form" method="POST" action="http://formspree.io/udbhav1995@gmail.com" id="form_reach_us" data-success="Message successfully sent!">
     <div class="form-group">
         <label for="inputEmail" id="label_reachus">Got question or just drop a line and say hi!!</label>
