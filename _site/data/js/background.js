@@ -15,5 +15,8 @@ function changebg() {
     }   else if(location.pathname=="/freidae/reach_us/#rchus"||location.pathname=="/freidae/reach_us/"){
         document.body.style.background = 'url(#)';
          document.body.style.backgroundColor = '#986665';
+    }   else if(location.pathname=="/freidae/pricing/#prcng"||location.pathname=="/freidae/pricing/"){
+        document.body.style.background = 'url(#)';
+         document.body.style.backgroundColor = '#cccccc';
     }
 }

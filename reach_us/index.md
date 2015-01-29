@@ -1,6 +1,6 @@
 ---
 layout: default_others
-title: Freidae Home Page
+title: Freidae Reach Us Page
 ---
 <form role="form" method="POST"  id="form_reach_us" data-success="Message successfully sent!">
     <div class="form-group">

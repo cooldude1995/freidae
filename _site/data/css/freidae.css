@@ -172,3 +172,29 @@ option{
 #i-dilr{
     width: 79%;
 }
+#pr_prsnl {
+    
+}
+.pri-img{
+    float: left;
+    margin-left: 16px;
+}
+.pri-txt{
+    padding: 15px 66px;
+}
+.pri-sbmt {
+    box-shadow: 5px 5px 5px #6F6F6F;
+    background: #00A651;
+    width: 172px;
+    margin: 10px 10.5%;
+}
+
+.pri-div-dwn {
+    margin-top: 3%;
+}
+
+#pr_stkr {
+    position: relative;
+    left: -21%;
+    margin-top: -3%;
+}

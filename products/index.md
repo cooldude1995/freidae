@@ -1,6 +1,6 @@
 ---
 layout: default_others
-title: Freidae Home Page
+title: Freidae Products Page
 ---
 #<b>Pro Card Manager</b>
 ###Click, save and sync, it’s just that simple
