@@ -11,8 +11,20 @@
     font-weight: normal; 
     font-style: normal;
 }
+@font-face { 
+    font-family: 'Aller'; 
+    src: url('font/path/aller.eot'); 
+    src: url('font/path/aller.eot?#iefix')
+    format('embedded-opentype'), 
+    url('font/path/aller.svg#Aller') 
+    format('svg'), url('font/path/aller.woff') 
+    format('woff'), url('font/path/aller.ttf') 
+    format('truetype');
+    font-weight: normal; 
+    font-style: normal;
+}
 body{
-    font: 14px 'Aller_Light';
+    font: 19px 'Aller_Light';
     color:#000000;
     background: url(/freidae/data/backgrounds/BackgroundImage1.jpg);
     background-repeat: no-repeat;
@@ -24,6 +36,9 @@ body{
 h1,h3{
     text-align: center;
     margin-bottom: 3%;
+}
+.btn{
+    font-size: 16px;
 }
 .navbar {
     background-color: rgba(255, 255, 255, 0.45);
@@ -37,7 +52,7 @@ h1,h3{
 } 
 .navbar-inverse .navbar-nav>li>a{
     color: #000000;
-    font-size: 14px;
+    font-size: 16px;
 }
 .navbar-inverse .navbar-nav>li>a:active{
     color: #660000;
@@ -67,7 +82,8 @@ h1,h3{
 }
 #top_nav_appstr{
     width: 128px;
-    height: 42px;
+    height: 36px;
+    margin-top: 2%;
 }
 #base_nav_ul{
     padding-left: 0%;
@@ -89,6 +105,10 @@ h1,h3{
     width: 36%;
     margin-left: auto;
     margin-right: auto;
+    font-size: 19px;
+}
+.form-control{
+    font-size: inherit;
 }
 #inputEmail,#inputSubject,#content,#sel1{
     text-align: center;
@@ -100,11 +120,12 @@ h1,h3{
 }
 #label_reachus{
     text-align: center;
-    padding-left: 13.5%;
-    padding-right: 13.5%;
-    font-size: 18px;
+    padding-left: 3.5%;
+    padding-right: 3.5%;
+    font-size: 23px;
 }
 #btn-submit{
+    box-shadow: 5px 5px 5px #2E3838;
     background: #9ABCBC;
     width: 196%;
     height: 34px;
@@ -133,6 +154,7 @@ option{
     min-width: 276px;
 }
 #sinup_h{
+    box-shadow: 5px 5px 5px #6F6F6F;
     background:  rgba(102, 204, 255, 0.7);
     border-radius: 13px;
     height: 39px;
