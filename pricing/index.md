@@ -2,7 +2,7 @@
 layout: default_others
 title: Freidae Pricing Page
 ---
-<h1>Interested? We have just the right plan for you</h1>
+<h1 style="font-family: 'Aller';">Interested? We have just the right plan for you</h1>
 <div class="col-sm-4 pri-div-dwn">
     <img alt="Personal" id="pr_prsnl" src="/freidae/data/img/Personal.png">
     <br>
