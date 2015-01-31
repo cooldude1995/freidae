@@ -67,11 +67,13 @@ h1,h3{
     min-width: 76px;
 }
 #top_nav_ul{
-    margin-left: 3%;
-    margin-right: 2%;
-    width: 51%;
+    margin-left: 1%;
+    margin-right: 0%;
+    width: 34%;
     padding-left: 2%;
+    min-width: 416px;
     padding-right: 2%;
+    float: right;
 }
 #top_nav_logo{
     margin-top: -2%;
