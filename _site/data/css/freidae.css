@@ -67,6 +67,7 @@ h1,h3{
     min-width: 76px;
 }
 #top_nav_ul{
+    text-align: center;
     margin-left: 1%;
     margin-right: 0%;
     width: 34%;
