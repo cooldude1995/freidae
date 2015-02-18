@@ -223,3 +223,29 @@ option{
     left: -21%;
     margin-top: -3%;
 }
+
+#about-hdr {
+    font: 24px 'Aller light';
+    text-align: centre;
+}
+
+#about-cont-1 {
+    text-align: center;
+    font: '20px Aller_light';
+}
+
+.about-ppl-ph {
+    margin-top: -15%;
+}
+
+#about-ppl-1 {
+    width: 161px;
+    margin: 20% 28% 0% 9%;
+    display: inline-block;
+}
+
+#about-ppl-2 {
+        width: 186px;
+    margin: 20% 0% 0% 15%;
+    display: inline-block;
+}

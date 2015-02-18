@@ -25,8 +25,8 @@
 <body>
     <script type="text/javascript"> 
         changebg();
+        setupRecaptcha();
     </script>
-
 <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container" style="margin-left: 0%;margin-right: 0%;width: 100%;">
         <div class="navbar-header pull-left">
@@ -35,7 +35,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_appstr" src="/freidae/data/img/Sign%20In%20button.png" alt="sign in/up"></a>
+            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_appstr" src="/freidae/data/img/App_store_badge.png" alt="App store"></a>
         </div>
         <div class="navbar-header pull-right">
             <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_logo" src="/freidae/data/img/Logo+font.png" alt="Freidae"></a>
@@ -51,30 +51,21 @@
     </div>
 </nav>
 <div class="container-fluid" >
-    <p><form role="form" method="POST"  id="form_reach_us" data-success="Message successfully sent!">
-    <div class="form-group">
-        <label for="inputEmail" id="label_reachus">Got question or just drop a line and say hi!!</label>
-        <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email" required autofocus>
-    </div>
-    <div class="form-group">
-        <input type="text" class="form-control" id="inputSubject" placeholder="Subject" name="subject" required >
-    </div>
-    <div class="form-group">
-        <select class="form-control" id="sel1" style="padding-left: 41%;padding-right: 23%;height: 56px;" name="category">
-            <option>Category</option>
-            <option>Comment</option>
-            <option>Suggestion</option>
-        </select>
-    </div>
-    <div class="form-group">
-        <textarea class="form-control" rows="5" id="content" placeholder="Content" name="content" required ></textarea>
-    </div>
-    <div class="form-group g-recaptcha" data-sitekey="6LcLwAATAAAAAI1ssN3BesuD7qwOKtV7Dg227-tv"></div>
-    <div class="form-group" style="width: 71px;min-width: 71px;">
-    <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
-        <button id="btn-submit" type="submit" class="btn" onclick="return setupRecaptcha();"><p style="text-align: center;">Submit</p></button>
-    </div>
-</form></p>
+    <div class="col-md-6">
+    <h3 id="about-hdr"><b>The Fridae Story:</b></h3>
+    <br><br>
+    <p id="about-cont-1">Fridae traces its origin to the eponymous Man Friday,  It has been quite a journey for us. What started out as just another day culminated in the conception of Freidae.<br><br>Freidae will do the ‘odd jobs’ and make life a little more comfortable for the inhabitants of this deserted island, so to speak</p>
+</div>
+
+
+<div class="col-md-6">
+    <h3 id="about-hdr"><b>We are Freidae: </b></h3>
+    <p id="about-ppl-1">Anubhav Mahajan</p><img class="about-ppl-ph" alt="anubhav photo" src="/freidae/data/img/anu_photo.png"><br><br><br><br>
+    <img class="about-ppl-ph" alt="sidhartha photo" src="/freidae/data/img/sid_photo.png"><p id="about-ppl-2">Siddhartha B. Kukrety</p>
+</div>
+
+
+<p><br><br></p>
 
     <br>
     <br>

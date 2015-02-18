@@ -28,5 +28,8 @@ function changebg() {
     }   else if(location.pathname=="/freidae/pricing/#prcng"||location.pathname=="/freidae/pricing/"){
         document.body.style.background = 'url(#)';
          document.body.style.backgroundColor = '#cccccc';
+    }   else if(location.pathname=="/freidae/pricing/#prcng"||location.pathname=="/freidae/about_us/"){
+        document.body.style.background = 'url(#)';
+         document.body.style.backgroundColor = '#9900CC';
     }
 }
