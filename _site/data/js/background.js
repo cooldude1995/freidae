@@ -28,8 +28,11 @@ function changebg() {
     }   else if(location.pathname=="/freidae/pricing/#prcng"||location.pathname=="/freidae/pricing/"){
         document.body.style.background = 'url(#)';
          document.body.style.backgroundColor = '#cccccc';
-    }   else if(location.pathname=="/freidae/pricing/#prcng"||location.pathname=="/freidae/about_us/"){
+    }   else if(location.pathname=="/freidae/about_us/#abts"||location.pathname=="/freidae/about_us/"){
         document.body.style.background = 'url(#)';
-         document.body.style.backgroundColor = '#9900CC';
+         document.body.style.backgroundColor = 'rgba(0,51,102,0.9)';
+    }   else if(location.pathname=="/freidae/jobs/#jbs"||location.pathname=="/freidae/jobs/"){
+        document.body.style.background = 'url(#)';
+         document.body.style.backgroundColor = '#9999cc';
     }
 }

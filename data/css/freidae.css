@@ -249,3 +249,25 @@ option{
     margin: 20% 0% 0% 15%;
     display: inline-block;
 }
+
+#jbs-info {
+    font: 24px 'Aller_light';
+    text-align: center;
+}
+
+#abt-img {
+    width: 98%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abt-btn {
+    margin: 20px 18%;
+    background: #b8b8b8; 
+}
+
+#abt-div-2,#abt-div-1 {
+    margin-left: auto;
+    margin-right: auto;
+}

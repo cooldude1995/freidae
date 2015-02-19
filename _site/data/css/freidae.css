@@ -236,18 +236,38 @@ option{
 
 .about-ppl-ph {
     margin-top: -15%;
-    width: 26%;
-    height: 140px;   
 }
 
 #about-ppl-1 {
     width: 161px;
-    margin: 20% 10% 0% 8%;
+    margin: 20% 28% 0% 9%;
     display: inline-block;
 }
 
 #about-ppl-2 {
         width: 186px;
-    margin: 20% 0% 0% 10%;
+    margin: 20% 0% 0% 15%;
     display: inline-block;
+}
+
+#jbs-info {
+    font: 24px 'Aller_light';
+    text-align: center;
+}
+
+#abt-img {
+    width: 98%;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#abt-btn {
+    margin: 20px 18%;
+    background: #b8b8b8; 
+}
+
+#abt-div-2,#abt-div-1 {
+    margin-left: auto;
+    margin-right: auto;
 }

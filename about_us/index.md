@@ -1,6 +1,6 @@
 ---
-layout: default_home
-title: Freidae Home Page
+layout: default_others
+title: Freidae About Us
 ---
 <div class="col-md-6">
     <h3 id="about-hdr"><b>The Fridae Story:</b></h3>
