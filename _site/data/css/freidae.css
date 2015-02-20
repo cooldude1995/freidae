@@ -240,13 +240,12 @@ option{
 
 #about-ppl-1 {
     width: 161px;
-    margin: 20% 28% 0% 9%;
     display: inline-block;
 }
 
 #about-ppl-2 {
-        width: 186px;
-    margin: 20% 0% 0% 15%;
+    width: 186px;
+    margin: 20% 0% 0% 11%;
     display: inline-block;
 }
 
@@ -270,4 +269,8 @@ option{
 #abt-div-2,#abt-div-1 {
     margin-left: auto;
     margin-right: auto;
+}
+
+.abt-inr-div {
+    margin-top: 22%;
 }
