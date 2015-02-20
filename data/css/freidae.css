@@ -178,14 +178,17 @@ option{
 }
 .notice {
     display: none;
-    background-color: #f2dede;
-    border: 1px solid #ebccd1;
+    background-color: rgba(0,0,0,0);
+    border: 1px solid #000;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     padding: 10px 15px;
     color: #a94442;
     margin-top: 15px;
+    word-wrap: break-word;
+    -webkit-transition: * 0.5s ease-in-out;
+    transition: * 0.5s ease-in-out;
 }
 #i-pro-crd-mgr,#i-dilr{
     width: 70%;
