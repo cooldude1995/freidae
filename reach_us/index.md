@@ -2,6 +2,9 @@
 layout: default_others
 title: Freidae Reach Us Page
 ---
+<script type="text/javascript"> 
+    setupRecaptcha();
+</script>
 <form role="form" method="POST"  id="form_reach_us" data-success="Message successfully sent!">
     <div class="form-group">
         <label for="inputEmail" id="label_reachus">Got question or just drop a line and say hi!!</label>
@@ -20,7 +23,7 @@ title: Freidae Reach Us Page
     <div class="form-group">
         <textarea class="form-control" rows="5" id="content" placeholder="Content" name="content" required ></textarea>
     </div>
-    <div class="form-group g-recaptcha" data-sitekey="6LcLwAATAAAAAI1ssN3BesuD7qwOKtV7Dg227-tv"></div>
+    <div class="form-group g-recaptcha" data-sitekey="6LcLwAATAAAAAI1ssN3BesuD7qwOKtV7Dg227-tv" style="width: 23%;"></div>
     <div class="form-group" style="width: 71px;min-width: 71px;">
     <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
         <button id="btn-submit" type="submit" class="btn" onclick="return setupRecaptcha();"><p style="text-align: center;">Submit</p></button>
