@@ -24,7 +24,7 @@
         </script>
             <script>
         $("#btn-submit").click(function(){
-    $("#overlay, #popup").fadeToggle();setupRecaptcha();})
+    $("#overlay, #popup").fadeToggle();return setupRecaptcha();})
 </script>
     </head>
 <body>
@@ -56,16 +56,7 @@
     </div>
 </nav>
 <div class="container-fluid" >
-    <script type="text/javascript"> 
-    $(document).ready(function(){
-        popup();
-    });
-    </script>
-
-
-
-
-<div id="overlay">
+    <div id="overlay">
     <div id="popup">
         <h4 style="text-align:center;">Sending Message<br></h4>
         <img src="/freidae/data/img/ajax-loader.gif" id="loading-indicator" >
