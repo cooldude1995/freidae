@@ -2,12 +2,6 @@
 layout: default_others
 title: Freidae Reach Us Page
 ---
-<script type="text/javascript"> 
-    setupRecaptcha();
-    $(document).ready(function(){
-        popup();
-    });
-    </script>
 
 <div id="overlay">
     <div id="popup">
