@@ -1,5 +1,5 @@
 function setupRecaptcha() {
-  var contactFormHost = 'http://localhost:9292',
+  var contactFormHost = 'http://reachus-freidae.herokuapp.com',
       form = $('#form_reach_us'),
       notice = form.find('#notice');
 

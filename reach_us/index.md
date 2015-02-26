@@ -4,7 +4,17 @@ title: Freidae Reach Us Page
 ---
 <script type="text/javascript"> 
     setupRecaptcha();
-</script>
+    $(document).ready(function(){
+        popup();
+    });
+    </script>
+
+<div id="overlay">
+    <div id="popup">
+        <h4 style="text-align:center;">Sending Message<br></h4>
+        <img src="/freidae/data/img/ajax-loader.gif" id="loading-indicator" >
+    </div>
+</div>
 <form role="form" method="POST"  id="form_reach_us" data-success="Message successfully sent!">
     <div class="form-group">
         <label for="inputEmail" id="label_reachus">Got question or just drop a line and say hi!!</label>

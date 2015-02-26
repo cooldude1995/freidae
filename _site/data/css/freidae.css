@@ -277,3 +277,37 @@ option{
 .abt-inr-div {
     margin-top: 22%;
 }
+
+#popup {
+    position: fixed;    
+    z-index: 100;
+    top: 37%;
+    bottom: 37%;
+    left: 43%;
+    right: 43%;
+    border-radius: 25px;
+    background: whitesmoke;
+    width: 16%;
+    height: 110px;
+    display: none;
+}
+
+#loading-indicator {
+    margin-left: 38%;
+    margin-top: 11px;
+    margin-right: 38%;
+}
+
+#overlay {
+ 	position:fixed;
+	display:none; 
+
+    /* color with alpha transparency */
+    background-color: rgba(0, 0, 0, 0.7);
+
+    /* stretch to screen edges */
+    top: 0;
+	left: 0;
+    bottom: 0;
+    right: 0;
+}
