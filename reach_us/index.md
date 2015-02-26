@@ -36,6 +36,6 @@ title: Freidae Reach Us Page
     <div class="form-group g-recaptcha" data-sitekey="6LcLwAATAAAAAI1ssN3BesuD7qwOKtV7Dg227-tv" style="width: 23%;"></div>
     <div class="form-group" style="width: 71px;min-width: 71px;">
     <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
-        <button id="btn-submit" type="submit" class="btn" onclick="return setupRecaptcha();"><p style="text-align: center;">Submit</p></button>
+        <button id="btn-submit" type="submit" class="btn"><p style="text-align: center;">Submit</p></button>
     </div>
 </form>
