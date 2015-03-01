@@ -12,26 +12,11 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
         <script type="text/javascript" src="/freidae/data/js/background.js"></script>
-        <script type="text/javascript" src="/freidae/data/js/recaptcha.js"></script>
-        <script type="text/javascript" src="/freidae/data/js/popup.js"></script>
-        <script>
-            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-            ga('create', 'UA-59104992-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-            <script>
-        $("#btn-submit").click(function(){
-    $("#overlay, #popup").fadeToggle();return setupRecaptcha();})
-</script>
     </head>
 <body>
     <script type="text/javascript"> 
         changebg();
     </script>
-
 <nav class="navbar navbar-inverse navbar-static-top">
     <div class="container" style="margin-left: 0%;margin-right: 0%;width: 100%;">
         <div class="navbar-header pull-left">
@@ -85,7 +70,7 @@
     <div class="form-group g-recaptcha" data-sitekey="6LcLwAATAAAAAI1ssN3BesuD7qwOKtV7Dg227-tv" style="width: 23%;"></div>
     <div class="form-group" style="width: 71px;min-width: 71px;">
     <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
-        <button id="btn-submit" type="submit" class="btn"><p style="text-align: center;">Submit</p></button>
+        <button id="btn-submit" type="submit" class="btn" onclick="return false;"><p style="text-align: center;">Submit</p></button>
     </div>
 </form></p>
 
@@ -116,7 +101,6 @@
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-                <script type="text/javascript" src="/freidae/data/js/background.js"></script>
         <script type="text/javascript" src="/freidae/data/js/recaptcha.js"></script>
         <script type="text/javascript" src="/freidae/data/js/popup.js"></script>
         <script>
@@ -127,9 +111,6 @@
             ga('create', 'UA-59104992-1', 'auto');
             ga('send', 'pageview');
         </script>
-            <script>
-        $("#btn-submit").click(function(){
-    $("#overlay, #popup").fadeToggle();setupRecaptcha();})
-</script>
+        <script type="text/javascript" src="/freidae/data/js/popup.js"></script>
     </body>
 </html>
