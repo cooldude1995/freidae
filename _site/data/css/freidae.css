@@ -227,13 +227,13 @@ option{
 }
 
 #about-hdr {
-    font: 24px 'Aller light';
+    font: 24px 'Aller_light';
     text-align: centre;
 }
 
 #about-cont-1 {
     text-align: center;
-    font: '20px Aller_light';
+    font: 20px 'Aller_light';
 }
 
 .about-ppl-ph {
