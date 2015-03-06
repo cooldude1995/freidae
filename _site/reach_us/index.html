@@ -12,6 +12,7 @@
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
         <script type="text/javascript" src="/freidae/data/js/background.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     </head>
 <body>
     <script type="text/javascript"> 
@@ -25,10 +26,10 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_appstr" src="/freidae/data/img/Sign%20In%20button.png" alt="sign in/up"></a>
+            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_appstr" src="/freidae/data/img/navbar_t/Sign%20In%20button.png" alt="sign in/up"></a>
         </div>
         <div class="navbar-header pull-right">
-            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_logo" src="/freidae/data/img/Logo+font.png" alt="Freidae"></a>
+            <a class="navbar-brand" href="/freidae/" style="padding:8px;"><img id="top_nav_logo" src="/freidae/data/img/navbar_t/Logo+font.png" alt="Freidae"></a>
         </div>
         <div class="navbar-collapse collapse" id="myNavbar">
             <ul class="nav navbar-nav" id="top_nav_ul">
@@ -43,13 +44,14 @@
 <div class="container-fluid" >
     <div id="overlay">
     <div id="popup">
-        <h4 style="text-align:center;">Sending Message<br></h4>
-        <img src="/freidae/data/img/ajax-loader.gif" id="loading-indicator" >
+        <h4 id="sndg-msg-rchus" style="text-align:center;">Sending Message<br></h4>
+        <img src="/freidae/data/img/reach_us/ajax-loader.gif" id="loading-indicator-rchus" >
+        <div id="reachus_message" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again." data-success="Message successfully sent!"></div>
     </div>
 </div>
 
 
-<p><form role="form" method="POST"  id="form_reach_us" data-success="Message successfully sent!">
+<p><form role="form" method="POST"  id="form_reach_us" >
     <div class="form-group">
         <label for="inputEmail" id="label_reachus">Got question or just drop a line and say hi!!</label>
         <input type="email" class="form-control" id="inputEmail" placeholder="Email" name="email" required autofocus>
@@ -59,9 +61,10 @@
     </div>
     <div class="form-group">
         <select class="form-control" id="sel1" style="padding-left: 41%;padding-right: 23%;height: 56px;" name="category">
-            <option>Category</option>
-            <option>Comment</option>
-            <option>Suggestion</option>
+            <option>General</option>
+            <option>Request Clarification</option>
+            <option>Report Issue</option>
+            <option>Request Product Features</option>
         </select>
     </div>
     <div class="form-group">
@@ -69,10 +72,11 @@
     </div>
     <div class="form-group g-recaptcha" data-sitekey="6LcLwAATAAAAAI1ssN3BesuD7qwOKtV7Dg227-tv" style="width: 23%;"></div>
     <div class="form-group" style="width: 71px;min-width: 71px;">
-    <div id="notice" class="notice" data-captcha-failed="Incorrect captcha!" data-error="There was an error sending the message, please try again."></div>
         <button id="btn-submit" type="submit" class="btn" onclick="return false;"><p style="text-align: center;">Submit</p></button>
     </div>
-</form></p>
+</form>
+        <script type="text/javascript" src="/freidae/data/js/recaptcha.js"></script>
+        <script type="text/javascript" src="/freidae/data/js/popup.js"></script></p>
 
     <br>
     <br>
@@ -92,17 +96,14 @@
       <ul class="nav navbar-nav" id="base_nav_ul">
           <li><a id="abts" href="/freidae/about_us/#abts">About Us</a></li>
           <li><a id="jbs" href="/freidae/jobs/#jbs">Jobs</a></li>
-          <li><a href="#/">Help</a></li>
-          <li><a href="#">Privacy</a></li>
+          <li><a id="hlp" href="/freidae/help/#hlp">Help</a></li>
+          <li><a id="prvcy" href="/freidae/privacy/#prvcy">Privacy</a></li>
       </ul>
     </div>
   </div>
 </nav>
         <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-        <script type="text/javascript" src="/freidae/data/js/recaptcha.js"></script>
-        <script type="text/javascript" src="/freidae/data/js/popup.js"></script>
         <script>
             (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
             (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -111,6 +112,5 @@
             ga('create', 'UA-59104992-1', 'auto');
             ga('send', 'pageview');
         </script>
-        <script type="text/javascript" src="/freidae/data/js/popup.js"></script>
     </body>
 </html>

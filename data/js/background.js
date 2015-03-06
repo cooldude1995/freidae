@@ -6,12 +6,12 @@ function changebg() {
         if(screen.width>991)
         {
             var num =  Math.ceil( Math.random() * bgcount_lg );
-            document.body.style.background = 'url(/freidae/data/backgrounds_lg/BackgroundImage'+num+'.jpg)';
+            document.body.style.background = 'url(/freidae/data/img/backgrounds_lg/BackgroundImage'+num+'.jpg)';
         }
         else
         {
             var num =  Math.ceil( Math.random() * bgcount_sm );
-            document.body.style.background = 'url(/freidae/data/backgrounds_sm/BackgroundImage'+num+'.jpg)';
+            document.body.style.background = 'url(/freidae/data/img/backgrounds_sm/BackgroundImage'+num+'.jpg)';
         }
             document.body.style.backgroundRepeat = 'no-repeat';
             document.body.style.backgroundSize = '100% 100%';
@@ -34,5 +34,11 @@ function changebg() {
     }   else if(location.pathname=="/freidae/jobs/#jbs"||location.pathname=="/freidae/jobs/"){
         document.body.style.background = 'url(#)';
          document.body.style.backgroundColor = '#9999cc';
+    }   else if(location.pathname=="/freidae/privacy/#prvcy"||location.pathname=="/freidae/privacy/"){
+        document.body.style.background = 'url(#)';
+         document.body.style.backgroundColor = '#ffff99';
+    }   else if(location.pathname=="/freidae/help/#hlp"||location.pathname=="/freidae/help/"){
+        document.body.style.background = 'url(#)';
+         document.body.style.backgroundColor = '#3366ff';
     }
 }

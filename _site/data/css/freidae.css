@@ -13,12 +13,12 @@
 }
 @font-face { 
     font-family: 'Aller'; 
-    src: url('font/path/aller.eot'); 
-    src: url('font/path/aller.eot?#iefix')
+    src: url('/freidae/data/fonts/aller/aller.eot'); 
+    src: url('/freidae/data/fonts/aller/aller.eot?#iefix')
     format('embedded-opentype'), 
-    url('font/path/aller.svg#Aller') 
-    format('svg'), url('font/path/aller.woff') 
-    format('woff'), url('font/path/aller.ttf') 
+    url('/freidae/data/fonts/aller.svg#Aller') 
+    format('svg'), url('/freidae/data/fonts/aller/aller.woff') 
+    format('woff'), url('/freidae/data/fonts/aller/aller.ttf') 
     format('truetype');
     font-weight: normal; 
     font-style: normal;
@@ -179,26 +179,25 @@ option{
 .notice {
     display: none;
     background-color: rgba(0,0,0,0);
-    border: 1px solid #000;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
     padding: 10px 15px;
     color: #a94442;
     margin-top: 15px;
     word-wrap: break-word;
     -webkit-transition: * 0.5s ease-in-out;
     transition: * 0.5s ease-in-out;
+    text-align: center;
 }
-#i-pro-crd-mgr,#i-dilr{
-    width: 70%;
-    margin-left: 14%;
-    margin-right: 14%;
-    margin-bottom: 10%;
+#i-pro-crd-mgr-1{
+    margin-top: 12%;
+    margin-bottom: 6%;
     min-height: 70px;
+    margin-left: 28%;
 }
-#i-dilr{
-    width: 79%;
+#i-dilr-1{
+    margin-top: 12%;
+    margin-bottom: 6%;
+    min-height: 70px;
+    margin-left: 8%;
 }
 #pr_prsnl {
     
@@ -238,11 +237,12 @@ option{
 }
 
 .about-ppl-ph {
-    margin-top: -15%;
+
 }
 
 #about-ppl-1 {
     width: 161px;
+    margin: 20% 0% 0% 0%;
     display: inline-block;
 }
 
@@ -264,10 +264,14 @@ option{
     margin-right: auto;
 }
 
-#abt-btn {
+@media(max-width:1199px){#abt-btn {
     margin: 20px 18%;
     background: #b8b8b8; 
-}
+}}
+@media(min-width:1200px){#abt-btn {
+    margin: 20px 40%;
+    background: #b8b8b8; 
+}}
 
 #abt-div-2,#abt-div-1 {
     margin-left: auto;
@@ -275,7 +279,10 @@ option{
 }
 
 .abt-inr-div {
-    margin-top: 22%;
+    height: 173px;
+    width: 68%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #popup {
@@ -287,12 +294,12 @@ option{
     right: 43%;
     border-radius: 25px;
     background: whitesmoke;
-    width: 16%;
-    height: 110px;
+    width: 20%;
+    height: 133px;
     display: none;
 }
 
-#loading-indicator {
+#loading-indicator-rchus {
     margin-left: 38%;
     margin-top: 11px;
     margin-right: 38%;
@@ -310,4 +317,33 @@ option{
 	left: 0;
     bottom: 0;
     right: 0;
+}
+
+#prdct-img-div {
+    height: 194px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#i-pro-crd-mgr-2 {
+    
+}
+
+#prdct-h-1 {
+    width: 57%;
+    display: inline;
+}
+
+#prvcy-main-txt {
+    text-align: center;
+    font: 16px 'Aller';
+}
+
+.desc-prd {
+    text-align: center;
+}
+
+#i-dilr-2 {
+    margin-left: 7%;
 }
