@@ -34,6 +34,6 @@ title: Freidae Reach Us Page
         <button id="btn-submit" type="submit" class="btn" onclick="return false;"><p style="text-align: center;">Submit</p></button>
     </div>
 </form>
-        <script async defer src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script async defer type="text/javascript" src="/freidae/data/js/recaptcha.js"></script>
-        <script async defer type="text/javascript" src="/freidae/data/js/popup.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" async defer></script>
+        <script type="text/javascript" src="/freidae/data/js/recaptcha.js" async defer></script>
+        <script type="text/javascript" src="/freidae/data/js/popup.js" async defer></script>
