@@ -1,4 +1,4 @@
-var bgcount_lg = 46;
+var bgcount_lg = 44;
 var bgcount_sm = 13;
 function changebg() {
     if(location.pathname=="/freidae/#home"||location.pathname=="/freidae/")
