@@ -42,3 +42,6 @@ function changebg() {
          document.body.style.backgroundColor = '#3366ff';
     }
 }
+    $('document').ready(function(){
+        changebg();
+    });
