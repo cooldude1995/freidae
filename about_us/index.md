@@ -26,7 +26,7 @@ title: Freidae About Us
         <br><br><br><br>
     <div class="abt-inr-div">
         <img style="margin-top: 0px;" class="pull-left about-ppl-ph" alt="sidhartha photo" src="/freidae/data/img/about_us/circ.png">
-        <p class="pull-right" id="about-ppl-2">Stuti</p>
+        <p class="pull-right" id="about-ppl-2">Stuti Dabral</p>
     </div>
     <br><br><br>
 </div>

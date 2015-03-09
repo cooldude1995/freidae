@@ -71,7 +71,7 @@ h1,h3{
     margin-right: 0%;
     width: 34%;
     padding-left: 2%;
-    min-width: 416px;
+    min-width: 419px;
     padding-right: 2%;
     float: right;
 }
@@ -145,6 +145,7 @@ option{
 #home_form .form-group{
     margin-left: 0px;
     margin-right: 0px;
+    width: 100%;
 }
 #inputEmail1_h{
     background: rgba(255, 255, 255, 0.7);
@@ -346,3 +347,8 @@ option{
 #i-dilr-2 {
     margin-left: 7%;
 }
+
+@media(max-width:1199px){
+#pricing_row {
+    height: 780px;
+}}
